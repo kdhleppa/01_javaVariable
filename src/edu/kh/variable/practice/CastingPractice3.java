@@ -18,7 +18,8 @@ public class CastingPractice3 {
 		System.out.print("수학 : ");
 		double dNumInput3 = sc.nextDouble();
 		
-		int dNumSum = (int)dNumInput1 + (int) dNumInput2 + (int) dNumInput3;
+
+		int dNumSum = (int)(dNumInput1 + dNumInput2 + dNumInput3);
 		
 		System.out.println();
 		
